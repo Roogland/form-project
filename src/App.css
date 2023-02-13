@@ -1,0 +1,68 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+ :root{
+  --primary-white: white;
+  --primary-green: green;
+  --primary-dark: rgb(255, 255, 255, 0);
+}
+
+ body{
+  font-family: "Roboto condensed" sans-serif;
+} 
+ .nav-css, navbar-nav > li > a {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 10rem;
+  border-top: 0.1875rem solid  var(--primary-dark)
+ }
+  /* border-top: 0.1875rem solid  var(--primary-orange) */
+  /* /* color: white;
+}  */
+
+.logo{
+  width: 3rem;
+} 
+
+ .nav a.nav-link{
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+  /* font-size: 3rem; */
+  /* font-weight: 500; */
+}
+
+.navbar-nav > li > a{
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--primary-white) !important;
+} 
+
+/* .position{
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+
+.navbar-nav > li >  a.active, .navbar-nav > li > a.active:focus{
+  border-top: 0.1875rem solid var(--primary-green);
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-brand{
+  max-width: 17.25rem;
+  padding: 0 !important;
+  height: 4rem !important;
+} 
+
+.navbar-nav > li > a:hover{
+  border-top: 0.1875rem solid var(--primary-green);
+}
+/* @media only screen and (min-width: 414px) {
+  .logo{
+    width: 2rem;
+  }
+} */
